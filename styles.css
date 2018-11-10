@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(251, 251, 251);
+    font-family: '배달의민족 주아';
+}
+
+/* Main */
+header {
+    padding: 10px;
+    background-color: rgb(251, 185, 188);
+    position: relative;
+    height: 100px;
+}
+
+header img {
+    padding-left: 20px;
+    float: left;
+}
+
+/* renaming title */
+header input {
+    width: 250px;
+    height: 30px;
+    font-size: 27px;
+    font-family: '배달의민족 주아';
+    margin: 20px;
+    border-radius: 5px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+header input:focus{
+    width: 300px;
+}
+
+/* menu */
+.menu {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    overflow: visible;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(187, 165, 166);
+    font-size: 14px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li { 
+    display: inline-block;
+}
+
+.menu ul li:hover {
+    background: rgb(246, 242, 251);
+    color: rgb(201, 140, 118);
+}
+.menu ul li:hover ul {
+    /*커서가 올려졌을 때 보여짐*/
+    overflow: visible;
+    color: rgb(201, 140, 118);
+    display: block; 
+}
+.menu ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+
+.menu ul li ul li {
+    background-color: rgb(246, 242, 251);
+    display: block;
+}
+
+.menu ul li ul li a { display: block !important;}
+.menu ul li ul li:hover {background: rgb(251, 251, 251); }
+
+/* menu 
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 15px;
+    color: rgb(187, 165, 166);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #a0a0a0;
+    color: #ffffff;
+}
+
+.menu ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menu ul li {
+    float: left;
+    width: auto;
+}
+
+.menu-side {
+    background-color: rgb(246, 242, 251);
+    color: rgb(201, 140, 118);
+    padding: 10px;
+    display: none;
+}
+
+.menu li:hover + .menu-side {
+    display: block;
+}*/
+
+/* menu */
